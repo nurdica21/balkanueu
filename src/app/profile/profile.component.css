@@ -1,0 +1,282 @@
+section{
+
+    display: flex;
+    width: 60%;
+    min-height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+
+}
+
+.leftSide{
+    width: 30%;
+    height: 100%;
+    margin: 15px;
+
+}
+
+.rightSide{
+
+    width: 50%;
+    height: 100%;
+    margin: 15px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+   
+
+}
+
+img{
+    
+    width:100%;
+    height:160px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.imgPart{
+    
+    margin: 15px;
+    width:70%;
+    height:160px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.imgPart:hover .changeImg{
+    display: flex;
+}
+
+.edintInfo{
+    width: 30%;
+
+}
+.info{
+    width: 70%;
+}
+
+.changeImg{
+
+   width:100%;
+   height:100%;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.247);
+   display: none;
+   
+}
+
+.change-img-btn{
+
+   background-color: rgba(69, 165, 245);
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+
+.imgPart img{
+
+    max-width:100%;
+    max-height:100%;
+
+}
+
+.infoPart{
+    padding:20px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+
+
+.btn-edit-info{
+
+    background-color: rgba(69, 165, 245);
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.slikaBtn{
+    background-color: rgba(69, 165, 245);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.linksPart{
+
+    padding-top: 15px;
+    margin-top: 20px;
+    background-color: white;
+    height: 40%;
+    width: 100%;
+
+}
+
+.linksContainer{
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+
+    list-style: none;
+
+}
+
+ul li{
+
+    padding-bottom: 10px;
+
+}
+
+ul li a{
+
+   text-decoration: none;
+
+}
+
+.links{
+
+    padding-left: 0;
+
+}
+
+p{
+
+    font-size: 15px;
+    
+}
+
+h5{
+
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.inputEdit{
+
+    margin-top: 14.5px;
+   
+}
+
+.inputLink{
+    width: 100%;
+}
+
+.imePrezime{
+    display: flex;
+}
+
+.imePrezime input{
+
+    width: 120px;
+
+}
+
+.drzavaGrad{
+    display: flex;
+    
+}
+
+.drzavaGrad p{
+    margin-right:5px;
+    
+}
+
+.drzavaGrad input{
+    width:90px;
+}
+
+.godine{
+    display: flex;
+  
+}
+
+
+.godine input{
+    width:40px;
+}
+
+.godine p{
+    margin-right:5px;
+}
+
+.drzava{
+    display: flex;
+    margin-right: 5px;
+    align-content: center;
+}
+
+.drzava input{
+    width:120px;
+}
+
+.drzava p{
+    margin-right:5px;
+}
+
+.imeMarg{
+    margin-right: 5px;
+}
+
+input{
+   width: 100%;
+   border-radius: 10px;
+   border: 1px solid rgba(54, 52, 52, 0.199);
+   font-size: 17px;
+   height: 20px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 14.5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(43, 41, 41, 0.589);
+}
+

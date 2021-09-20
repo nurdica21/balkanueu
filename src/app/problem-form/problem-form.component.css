@@ -1,0 +1,98 @@
+
+section{
+
+    display: flex;
+    width: 70%;
+    min-height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(54, 52, 52, 0.199);
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.problemInfo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Info{
+    display: block;
+    width: 80%;
+}
+
+input{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(54, 52, 52, 0.199);
+    font-size: 17px;
+}
+
+input[type="email"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(43, 41, 41, 0.589);
+}
+
+input::placeholder{
+    font-size: 16px;
+}
+
+textarea{
+    background-color: whitesmoke;
+    width: 97%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(54, 52, 52, 0.199);
+    font-size: 17px;
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+textarea:focus {
+    
+    outline: none;
+    border-color: rgba(43, 41, 41, 0.589);
+}
+
+.problemBtn{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pFormBtn{
+    background-color: rgba(69, 165, 245);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,156 @@
+section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.6);
+}
+
+h3{
+    color: rgb(43, 42, 42);
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.loginInput{
+    margin-bottom: 20px;
+}
+
+input{
+   
+   height: 50px;
+   width: 100%;
+   border-radius: 10px;
+   border: 1px solid rgba(54, 52, 52, 0.199);
+   font-size: 17px;
+
+}
+
+
+input[type="email"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input[type="password"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(43, 41, 41, 0.589);
+}
+
+
+.lForm{
+    display: flex;
+}
+
+.lFormContainer{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.centerContent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginBtn{
+    
+    background-color: rgba(69, 165, 245);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+    
+}
+
+.loginBtn:hover{
+    background-color: rgb(42, 141, 221);
+}
+
+.singupBtn{
+    background-color: rgba(37, 184, 0, 0.808);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.singupBtn:hover{
+    background-color: rgba(34, 165, 1, 0.808);
+}
+
+.separate{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(13, 89, 253, 0.664);
+    font-size: 14px;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:425px){
+   
+    .lFormContainer{
+        width: 250px;
+    }
+
+
+}
+
+@media only screen and (max-width:305px){
+   
+    .lFormContainer{
+        width:auto;
+    }
+
+
+    section{
+        height: auto;
+    }
+
+    .singupBtn{
+        height: auto;
+    }
+
+
+}

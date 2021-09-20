@@ -1,0 +1,57 @@
+section{
+    
+    background-color: rgba(155, 232, 252, 0.267);
+    width: auto;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    
+   
+}
+
+.container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container p{
+    font-size: 13px;
+}
+
+.imagePart img{
+    height: 60px;
+    width: 60px;
+}
+.personItem {
+    padding-right: 30px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 420px){
+    
+    .personItem{
+        padding-right: 5px;
+    }
+
+    section{
+
+        width: 80%;
+    }
+
+    ul li a{
+        font-size: 13px;
+    }
+    ul{
+        padding-left: 5px;
+    }
+
+}

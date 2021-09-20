@@ -1,0 +1,30 @@
+<section>
+
+    <div class="container">
+        <div class="lForm">
+            <form method="POST" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+                <div class="lFormContainer">
+                
+                <input type="email" class="loginInput" placeholder="E-mail" name="email" ngModel>
+                
+                <input type="password" class="loginInput" placeholder="Lozinka" name="pwd" ngModel>
+                <input type="hidden" name="crud_req" ngModel="login">
+            </div>
+            <div class="centerContent">
+                <button class="loginBtn" type="submit" ngSubmit>Prijavi se</button>
+
+            </div>
+            <div class="centerContent">
+               <a href="">Zaboravili ste lozinku?</a>
+            </div>
+            <div class="separate">
+             </div>
+             <div class="centerContent">
+                <button class="singupBtn" type="submit" routerLink="/registracija" ngSubmit>Kreiraj novi korisnicki racun</button>
+
+            </div>
+            </form>
+        </div>
+    </div>
+
+</section>

@@ -1,0 +1,43 @@
+<section>
+
+    <div class="container">
+        <div class="lForm">
+            <form >
+                <div class="lFormContainer">
+                
+                <div class="lFormSide">
+
+                    <input type="text" class="loginInput" placeholder="Ime" name="fName" ngModel>
+                    <input type="text" class="loginInput" placeholder="Prezime" name="lName" ngModel>
+                    <input type="email" class="loginInput" placeholder="E-mail" name="email" ngModel>
+                    <input type="password" class="loginInput" placeholder="Lozinka" name="pwd" ngModel>
+                    <input type="password" class="loginInput" placeholder="Lozinka" name="rPwd" ngModel>
+
+                </div>
+                <div class="rFormSide">
+
+                    <input type="number" class="loginInput" placeholder="Godine" name="age" ngModel>
+                    <input type="text" class="loginInput" placeholder="Drzava" name="countryF" ngModel>
+                    <input type="text" class="loginInput" placeholder="Drzava" name="countryI" ngModel>
+                    <input type="text" class="loginInput" placeholder="Grad" name="city" ngModel>
+                    
+                    <input type="hidden" name="crud_req" ngModel="login">
+
+                </div>
+            </div>
+            <div class="centerContent">
+                <button class="registerBtn" type="submit" ngSubmit>Registruj se</button>
+
+            </div>
+            
+            <div class="separate">
+             </div>
+             <div class="centerContent">
+                <button class="singinBtn" type="submit" routerLink="/prijava" ngSubmit>Imam korisnicki racun</button>
+
+            </div>
+            </form>
+        </div>
+    </div>
+
+</section>

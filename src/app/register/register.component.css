@@ -1,0 +1,221 @@
+section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 400px;
+    padding: 50px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.6);
+}
+
+h3{
+    color: rgb(43, 42, 42);
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.loginInput{
+    margin-bottom: 20px;
+}
+
+input{
+   
+   height: 30px;
+   width: 100%;
+   min-width: 200px;
+   border-radius: 10px;
+   border: 1px solid rgba(54, 52, 52, 0.199);
+   font-size: 17px;
+
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input[type="number"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input[type="email"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input[type="password"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(43, 41, 41, 0.589);
+}
+
+
+.lForm{
+    display: flex;
+}
+
+.lFormSide{
+    display: block;
+    height: 100%;
+    width: 45%;
+}
+.rFormSide{
+    display: block;
+    height: 100%;
+    width: 45%;
+}
+
+.lFormContainer{
+    display: flex;
+    justify-content:space-around;
+    width: auto;
+    margin-top: 20px;
+}
+
+.centerContent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registerBtn{
+    
+    background-color: rgba(69, 165, 245);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+    margin-top: 20px;
+    
+}
+
+.registerBtn:hover{
+    background-color: rgb(42, 141, 221);
+}
+
+.singinBtn{
+    background-color: rgba(37, 184, 0, 0.808);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.singinBtn:hover{
+    background-color: rgba(34, 165, 1, 0.808);
+}
+
+.separate{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(13, 89, 253, 0.664);
+    font-size: 14px;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:767px){
+   
+
+    .container{
+        height: auto;
+    }
+
+    .lFormContainer{
+        width: 100%;
+        display: block;
+        
+    }
+    input{
+        width: 100%;
+    }
+
+    .lFormSide, .rFormSide{
+        width: 100%;
+    }
+
+    section{
+        height: auto;
+    }
+
+}
+@media only screen and (max-width:450px){
+   
+   .singinBtn{
+       width: 60%;
+   }
+  
+
+}
+
+
+@media only screen and (max-width:425px){
+   
+    .lFormContainer{
+        width: 210px;
+    }
+
+    input{
+        min-width: none;
+    }
+
+  
+
+}
+
+@media only screen and (max-width:305px){
+   
+    .lFormContainer{
+        width:auto;
+    }
+
+
+    section{
+        height: auto;
+    }
+
+   
+    .singinBtn{
+        width:auto;
+    }
+
+
+}

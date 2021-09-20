@@ -1,0 +1,54 @@
+<section>
+
+    <div class="leftSide">
+        <div class="imgPart">
+        <img src="" alt="">
+        </div>
+        <div class="container">
+            <div class="infoPart">
+
+                <div class="info">
+                    <div class="imePrezime">
+                        <input type="text" class="inputEdit imeMarg" value="Ime" [style.display]="editInfo?'none':'block'" style="margin-bottom: 25.5px;"><h5 style="margin-right: 4px;" [style.display]="editInfo?'block':'none'">Ime</h5>
+                        <input type="text" class="inputEdit" value="Prezime"[style.display]="editInfo?'none':'block'" style="margin-bottom: 25.5px;"><h5 [style.display]="editInfo?'block':'none'">Prezime</h5>
+                    </div>
+                    <div class="godine">
+                        <p >Godine:</p><span style="flex-wrap: wrap; align-items: center;" [style.display]="editInfo?'flex':'none'">22 </span><input type="text" class="inputEdit" value="22"[style.display]="editInfo?'none':'block'">
+                    </div>
+                    <div class="drzava">
+                        <p >Iz:</p><span style="flex-wrap: wrap; align-items: center;" [style.display]="editInfo?'flex':'none'">BiH</span><input type="text" class="inputEdit" value="BiH"[style.display]="editInfo?'none':'block'">
+                    </div>
+                    <div class="drzavaGrad">
+                        <p>Zivi u:</p><span style="flex-wrap: wrap; align-items: center;" [style.display]="editInfo?'flex':'none'">Njemacka</span><input type="text" class="inputEdit" value="Njemacka"[style.display]="editInfo?'none':'block'">
+                        <p>,</p><span style="flex-wrap: wrap; align-items: center;" [style.display]="editInfo?'flex':'none'">Berlin</span><input type="text" class="inputEdit" value="Berlin"[style.display]="editInfo?'none':'block'">
+                    </div>
+                </div>
+                <div class="editInfo">
+                    <span><button class="btn-edit-info"[style.display]="editInfo?'block':'none'" (click)="EditInfo()">Uredi</button></span>
+                    <span><button class="btn-edit-info"[style.display]="editInfo?'none':'block'" (click)="EditInfo()">Spremi</button></span>
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="rightSide">
+       
+    <div class="container">
+        <div class="linksPart">
+            <div class="linksContainer">
+            <ul class="links">
+                <li><input type="text" class="inputLink" value="Instagram"[style.display]="edit?'none':'block'"><a href="#" class="linkTagLink"[style.display]="edit?'block':'none'">Instagram</a></li>
+                <li><input type="text" class="inputLink" value="Facebook"[style.display]="edit?'none':'block'"><a href="#" class="linkTagLink"[style.display]="edit?'block':'none'">Facebook</a></li>
+                <li><input type="text" class="inputLink" value="Whats App"[style.display]="edit?'none':'block'"><a href="#" class="linkTagLink"[style.display]="edit?'block':'none'">Whats App</a></li>
+                <li><input type="text" class="inputLink" value="Viber"[style.display]="edit?'none':'block'"><a href="#" class="linkTagLink"[style.display]="edit?'block':'none'">Viber</a></li>
+                <li><input type="text" class="inputLink" value="Snap chat"[style.display]="edit?'none':'block'"><a href="#" class="linkTagLink"[style.display]="edit?'block':'none'">Snap chat</a></li>
+            </ul>
+            <div class="editInfo">
+                <span><button class="btn-edit-info"[style.display]="edit?'block':'none'" (click)="EditLinks()">Uredi</button></span>
+                <span><button class="btn-edit-info"[style.display]="edit?'none':'block'" (click)="EditLinks()">Spremi</button></span>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</section>

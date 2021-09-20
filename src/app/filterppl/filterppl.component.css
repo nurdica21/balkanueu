@@ -1,0 +1,117 @@
+section{
+
+    display: flex;
+    width: 70%;
+    min-height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.filter{
+
+    width: 100%;
+    display: block;
+    
+    
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(155, 232, 252, 0.267);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.traziBtn{
+
+    background-color: rgba(69, 165, 245);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+.traziBtn:hover{
+
+    cursor:pointer;
+    background-color:rgb(29, 151, 250) ;
+}
+
+.filterInfo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.upperFilterSide{
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.filter .upperFilterSide{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(155, 232, 252, 0.267);
+    padding-bottom: 10px;
+    
+}
+
+.filterItem {
+
+    display: inline-flex;
+    align-items: center;
+    padding-right: 20px;
+  
+}
+
+.filter .filterInfo .filterItem h5{
+ 
+    padding-right: 10px;
+
+}
+
+select{
+
+    height: 30px;
+    background-color: transparent;
+    
+}
+
+
+
+.people{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+select{
+    border-radius: 10px;
+   border: 1px solid rgba(54, 52, 52, 0.199);
+}
+
+select:focus {
+    outline: none;
+    border-color: rgba(43, 41, 41, 0.589);
+}
